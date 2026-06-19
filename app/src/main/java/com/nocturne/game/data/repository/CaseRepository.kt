@@ -10,6 +10,7 @@ import com.nocturne.game.domain.model.InterrogationTranscript
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.map
+import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 
@@ -52,11 +53,11 @@ class CaseRepository(private val dataStore: DataStore<Preferences>) {
         dataStore.edit { it[KEY_CASES] = json.encodeToString(all) }
     }
 
-    fun updateEvidence(caseId: String, evidence: List<Evidence>) = update(caseId) { c ->
+    suspend fun updateEvidence(caseId: String, evidence: List<Evidence>) = update(caseId) { c ->
         c.copy(evidence = evidence)
     }
 
-    fun updateTranscript(caseId: String, suspectId: String, transcript: InterrogationTranscript) =
+    suspend fun updateTranscript(caseId: String, suspectId: String, transcript: InterrogationTranscript) =
         update(caseId) { c ->
             c // we don't store transcript on Case itself, see [transcriptsFlow] below.
         }
