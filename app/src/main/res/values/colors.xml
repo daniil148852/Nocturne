@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Noir palette -->
+    <color name="noir_black">#FF06070A</color>
+    <color name="noir_charcoal">#FF11131A</color>
+    <color name="noir_smoke">#FF1A1D27</color>
+    <color name="noir_paper">#FFE6D8B0</color>
+    <color name="noir_paper_dim">#FFB8AB85</color>
+    <color name="noir_amber">#FFE8A33A</color>
+    <color name="noir_amber_dim">#FF8C6020</color>
+    <color name="noir_blood">#FFB23A3A</color>
+    <color name="noir_lantern">#FFFFE0A8</color>
+    <color name="noir_rain">#FF7A8BA8</color>
+    <color name="noir_shadow">#FF000000</color>
+
+    <!-- Brand accents -->
+    <color name="accent_jazz">#FFD4A85A</color>
+    <color name="accent_neon_red">#FFC73434</color>
+
+    <!-- Status bar -->
+    <color name="status_bar">#FF06070A</color>
+    <color name="nav_bar">#FF06070A</color>
+</resources>

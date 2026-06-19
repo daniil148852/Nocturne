@@ -1,0 +1,6 @@
+# Copy this file to `local.properties`. The actual `local.properties` is git-ignored.
+# It is OPTIONAL to put your Mixtral key here — the app also accepts the key in Setup screen
+# (encrypted on device). This file is only used to bake the key into BuildConfig for CI/preview.
+
+sdk.dir=/path/to/your/Android/sdk
+# MIXTRAL_API_KEY=

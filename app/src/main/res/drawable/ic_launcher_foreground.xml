@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Vintage fedora — Nocturne emblem -->
+    <path
+        android:fillColor="#E8A33A"
+        android:pathData="M30,52 C30,52 24,40 54,40 C84,40 78,52 78,52 L78,54 L30,54 Z" />
+    <path
+        android:fillColor="#8C6020"
+        android:pathData="M28,54 L80,54 L78,58 L30,58 Z" />
+    <path
+        android:fillColor="#11131A"
+        android:pathData="M38,58 L70,58 L66,68 L42,68 Z" />
+    <path
+        android:fillColor="#E6D8B0"
+        android:pathData="M54,42 L54,50" />
+    <path
+        android:fillColor="#B23A3A"
+        android:pathData="M40,60 L68,60 L66,62 L42,62 Z" />
+</vector>

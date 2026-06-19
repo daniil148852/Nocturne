@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Splash theme used until Compose claims the window. -->
+    <style name="Theme.Nocturne.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/noir_black</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.Nocturne.Base</item>
+        <item name="android:windowBackground">@color/noir_black</item>
+        <item name="android:statusBarColor">@color/status_bar</item>
+        <item name="android:navigationBarColor">@color/nav_bar</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+
+    <!-- Base theme used by MainActivity (Compose handles the rest). -->
+    <style name="Theme.Nocturne.Base" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/noir_black</item>
+        <item name="android:statusBarColor">@color/status_bar</item>
+        <item name="android:navigationBarColor">@color/nav_bar</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+
+</resources>

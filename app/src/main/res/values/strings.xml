@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Nocturne</string>
+
+    <!-- Setup -->
+    <string name="setup_title">Дело раскрывается в темноте</string>
+    <string name="setup_subtitle">Чтобы начать расследование, нужен пропуск в лабораторию Mixtral. Он спрятан в твоих вещах — введи ключ API.</string>
+    <string name="setup_key_hint">Ключ Mixtral API</string>
+    <string name="setup_key_help">Получи ключ на console.mistral.ai → API Keys. Хранится в зашифрованном виде только на этом устройстве.</string>
+    <string name="setup_save">Войти в участок</string>
+    <string name="setup_open_console">Открыть console.mistral.ai</string>
+
+    <!-- Mismatch / errors -->
+    <string name="err_no_key">Ключ не задан. Вернись на экран настройки.</string>
+    <string name="err_network">Не удалось выйти на связь. Дождь мешает сигналу.</string>
+    <string name="err_parse">Дело получилось странным — слишком много шума в ответе. Попробуем ещё раз.</string>
+    <string name="err_quota">Лимит исчерпан. Возьми новый ключ или подожди.</string>
+    <string name="err_generic">Что-то пошло не так. Попробуй ещё раз.</string>
+
+    <!-- Menu -->
+    <string name="menu_title">Участок №7</string>
+    <string name="menu_subtitle">Дождь стучит по жестяному подоконнику. На столе — три дела.</string>
+    <string name="menu_new_case">Новое дело</string>
+    <string name="menu_continue">Продолжить расследование</string>
+    <string name="menu_change_key">Сменить ключ</string>
+    <string name="menu_about">О приложении</string>
+    <string name="menu_about_text">Nocturne — процедурный нуар-детектив. Все персонажи, мотивы и откровения написаны Mixtral. Ни одно дело не повторяется.</string>
+
+    <!-- Briefing -->
+    <string name="briefing_title">Дело №%1$s</string>
+    <string name="briefing_victim_label">Жертва</string>
+    <string name="briefing_location_label">Место обнаружения</string>
+    <string name="briefing_recipient">Дело поручено: тебе</string>
+    <string name="briefing_back_to_menu">В участок</string>
+    <string name="briefing_start_investigation">Приступить</string>
+
+    <!-- Hub -->
+    <string name="hub_title">Записная книжка</string>
+    <string name="hub_tab_clues">Улики</string>
+    <string name="hub_tab_suspects">Подозреваемые</string>
+    <string name="hub_tab_places">Места</string>
+    <string name="hub_empty_clues">Улик пока нет. Осмотри место преступления.</string>
+    <string name="hub_empty_suspects">Подозреваемых ещё нет в деле.</string>
+    <string name="hub_empty_places">Локаций пока нет.</string>
+    <string name="hub_action_accuse">Выдвинуть обвинение</string>
+    <string name="hub_progress">Прогресс дела: %1$d / %2$d</string>
+
+    <!-- Location -->
+    <string name="location_title">Осмотр</string>
+    <string name="location_inspect">Осмотреть внимательно</string>
+    <string name="location_inspecting">Дождь шумит. Свет падает на пол…</string>
+    <string name="location_back">Назад в книжку</string>
+
+    <!-- Interrogation -->
+    <string name="interrogation_title">Допрос</string>
+    <string name="interrogation_input_hint">Скажи допрашиваемому…</string>
+    <string name="interrogation_send">Спросить</string>
+    <string name="interrogation_thinking">Подозреваемый молчит…</string>
+    <string name="interrogation_end">Закончить допрос</string>
+    <string name="interrogation_killer_marker">На заметку: что-то с ним не так…</string>
+
+    <!-- Accusation -->
+    <string name="accusation_title">Обвинение</string>
+    <string name="accusation_pick_suspect">Выбери, кого считаешь убийцей</string>
+    <string name="accusation_pick_motive">Какой, по-твоему, мотив?</string>
+    <string name="accusation_pick_evidence">Какая улика решает дело?</string>
+    <string name="accusation_submit">Выдвинуть обвинение</string>
+    <string name="accusation_back">Вернуться к уликам</string>
+
+    <!-- Resolution -->
+    <string name="resolution_title">Развязка</string>
+    <string name="resolution_correct">Ты раскрыл дело.</string>
+    <string name="resolution_wrong">Убийца ушёл.</string>
+    <string name="resolution_truth">Что произошло на самом деле</string>
+    <string name="resolution_next">Следующее дело</string>
+    <string name="resolution_to_menu">В участок</string>
+
+    <!-- Common -->
+    <string name="action_back">Назад</string>
+    <string name="action_loading">Загружается…</string>
+    <string name="action_retry">Попробовать снова</string>
+    <string name="action_skip">Пропустить</string>
+    <string name="action_cancel">Отмена</string>
+
+    <!-- Ambient -->
+    <string name="rain_subtitle">Ноябрь, 1947. Полночь.</string>
+</resources>

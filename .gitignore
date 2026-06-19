@@ -1,0 +1,27 @@
+# Build / IDE / OS
+.gradle/
+build/
+.idea/
+*.iml
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.dex
+*.class
+*.keystore
+*.jks
+
+# Secrets — never commit credentials
+key_github.txt
+secrets/
+.github/workflows/*.secret.*
+
+# Kotlin
+.kotlin/
+
+# OS
+.DS_Store
+Thumbs.db
