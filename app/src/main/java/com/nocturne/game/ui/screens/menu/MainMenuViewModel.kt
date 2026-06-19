@@ -16,6 +16,7 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
+import androidx.lifecycle.viewModelScope
 import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.json.Json
 

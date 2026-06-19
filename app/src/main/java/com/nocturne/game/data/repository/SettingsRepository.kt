@@ -59,7 +59,7 @@ class SettingsRepository(
         // Synchronous lookup — only the API key presence matters here. We
         // re-evaluate the saved case-id once MainMenu mounts via the persisted repo.
         val key = apiKey()
-        return if (key.isNullOrBlank()) Route.SETUP.route else Route.MENU.route
+        return if (key.isNullOrBlank()) Route.Setup.route else Route.Menu.route
     }
 
     companion object {

@@ -39,6 +39,7 @@ import com.nocturne.game.ui.components.SuspectAvatar
 import com.nocturne.game.ui.components.TypewriterText
 import com.nocturne.game.ui.theme.NoirAmber
 import com.nocturne.game.ui.theme.NoirAmberDim
+import com.nocturne.game.ui.theme.NoirBlood
 import com.nocturne.game.ui.theme.NoirBlack
 import com.nocturne.game.ui.theme.NoirCharcoal
 import com.nocturne.game.ui.theme.NoirFog

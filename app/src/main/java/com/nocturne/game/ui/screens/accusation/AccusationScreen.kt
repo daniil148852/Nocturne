@@ -116,7 +116,7 @@ fun AccusationScreen(
                         title = suspect.name,
                         sub = "${suspect.profession} · ${suspect.relation}",
                         selected = state.pickedSuspect == suspect.id,
-                        leader = SuspectAvatar(name = suspect.name, modifier = Modifier.size(60.dp)),
+                        leader = { SuspectAvatar(name = suspect.name, modifier = Modifier.size(60.dp)) },
                         onClick = { vm.pickSuspect(if (state.pickedSuspect == suspect.id) null else suspect.id) }
                     )
                 }
@@ -179,7 +179,7 @@ fun AccusationScreen(
                         title = ev.name,
                         sub = ev.description,
                         selected = state.pickedEvidence == ev.id,
-                        leader = Box(
+                        leader = { Box(
                             modifier = Modifier
                                 .size(56.dp)
                                 .clip(RoundedCornerShape(2.dp))
@@ -188,7 +188,7 @@ fun AccusationScreen(
                             contentAlignment = Alignment.Center
                         ) {
                             Text("УЛ.", color = NoirBlood, fontSize = 10.sp, letterSpacing = 2.sp)
-                        },
+                        } },
                         onClick = { vm.pickEvidence(if (state.pickedEvidence == ev.id) null else ev.id) }
                     )
                 }
